@@ -66,6 +66,19 @@ h6 {
   opacity: 1;
 }
 
+.btn-download {
+  background: #149ddd;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+.btn-download:hover {
+  background: #37b3ed;
+}
+
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
