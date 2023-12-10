@@ -17,7 +17,7 @@ if(isset($_POST)){
 	if($formok){
 		$headers = "From: chesterjohn.net@outlook.com" . "\r\n";
 		$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-		$emailbody = "<p>You have recieved a new message from the enquiries form on your website.</p>
+		$emailbody = "<p>You have received a new message from the inquiries form on your website.</p>
                   <p><strong>Name: </strong> {$name} </p>
                   <p><strong>Email Address: </strong> {$email} </p>
                   <p><strong>Message: </strong> {$message} </p> ";
