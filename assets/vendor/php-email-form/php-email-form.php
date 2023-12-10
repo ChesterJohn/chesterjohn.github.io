@@ -26,10 +26,13 @@ if(isset($_POST)){
 
 	}
 
+	echo 'success';
         //redirect back to form
         // header('location: ' . $_SERVER['HTTP_REFERER']);
 
+} else {
+    echo 'error';
 }
 
+
  ?>
- Thanks for contacting us, we will get back to you as soon as possible.	
