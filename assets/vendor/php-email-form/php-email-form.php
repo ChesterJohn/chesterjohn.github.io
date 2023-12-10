@@ -27,8 +27,9 @@ if(isset($_POST)){
 	}
 
         //redirect back to form
-        header('location: ' . $_SERVER['HTTP_REFERER']);
+        // header('location: ' . $_SERVER['HTTP_REFERER']);
 
 }
 
  ?>
+ Thanks for contacting us, we will get back to you as soon as possible.	
